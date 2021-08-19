@@ -17,7 +17,7 @@
         <header class="header">
             <div class="container header__container">
                 <a href="/" class="header__logo">
-                    <svg height="32" width="32">
+                    <svg class="logo">
                         <use href="image/icons.svg#logo"></use>
                     </svg>
                     <span class="logo__title">metting</span>
@@ -45,6 +45,11 @@
                     <button class="button button--transparent">Sign in</button>
                     <button class="button button--blue">Download</button>
                 </div>
+                <div class="mobile__menu">
+                    <svg height="12" width="28" class="mobile__logo">
+                        <use href="image/icons.svg#mobile-menu"></use>
+                    </svg>
+                </div>
             </div>
         </header>
         <section class="hero">
@@ -55,6 +60,9 @@
                         <h4 class="page__subtitle">Many desktop publishing packages and web page editors now use Lorem
                             Ipsum as their default</h4>
                         <button class="button button--green">Start for free</button>
+                    </div>
+                    <div class="page__img-section">
+                        <img src="image/hero.png" alt="woman" class="hero__img">
                     </div>
                 </div>
             </div>
@@ -72,19 +80,19 @@
                             <div class="statistic__download">
                                 <span class="statistic__number">15k</span>
                                 <div class="statistic__icons">
-                                    <svg height="14" width="16">
+                                    <svg height="14" width="16" class="icon__heart">
                                         <use href="image/icons.svg#heart"></use>
                                     </svg>
-                                    <svg height="14" width="16">
+                                    <svg height="14" width="16" class="icon__heart">
                                         <use href="image/icons.svg#heart"></use>
                                     </svg>
-                                    <svg height="14" width="16">
+                                    <svg height="14" width="16" class="icon__heart">
                                         <use href="image/icons.svg#heart"></use>
                                     </svg>
-                                    <svg height="14" width="16">
+                                    <svg height="14" width="16" class="icon__heart">
                                         <use href="image/icons.svg#heart"></use>
                                     </svg>
-                                    <svg height="14" width="16">
+                                    <svg height="14" width="16" class="icon__heart">
                                         <use href="image/icons.svg#heart"></use>
                                     </svg>
                                 </div>
@@ -93,19 +101,19 @@
                             <div class="statistic__rating">
                                 <span class="statistic__number">4.9</span>
                                 <div class="statistic__icons">
-                                    <svg height="14" width="16">
+                                    <svg height="14" width="16" class="icon__star">
                                         <use href="image/icons.svg#star"></use>
                                     </svg>
-                                    <svg height="14" width="16">
+                                    <svg height="14" width="16" class="icon__star">
                                         <use href="image/icons.svg#star"></use>
                                     </svg>
-                                    <svg height="14" width="16">
+                                    <svg height="14" width="16" class="icon__star">
                                         <use href="image/icons.svg#star"></use>
                                     </svg>
-                                    <svg height="14" width="16">
+                                    <svg height="14" width="16" class="icon__star">
                                         <use href="image/icons.svg#star"></use>
                                     </svg>
-                                    <svg height="14" width="16">
+                                    <svg height="14" width="16" class="icon__star">
                                         <use href="image/icons.svg#star"></use>
                                     </svg>
                                 </div>
@@ -116,43 +124,43 @@
                     <div class="companies__icons-section">
                         <ul class="companies__list">
                             <li class="companies__item">
-                                <a href="https://www.airbnb.ru/" class="companies__link">
-                                    <svg height="35" width="112">
+                                <a href="https://www.airbnb.ru/" target="_blank" class="companies__link">
+                                    <svg height="35" width="112" class="companies__logo">
                                         <use href="image/icons.svg#Airbnb"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="companies__item">
-                                <a href="https://www.hubspot.com/" class="companies__link">
-                                    <svg height="30" width="105">
+                                <a href="https://www.hubspot.com/" arget="_blank" class="companies__link">
+                                    <svg height="30" width="105" class="companies__logo">
                                         <use href="image/icons.svg#Hubspot"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="companies__item">
-                                <a href="https://www.google.ru/" class="companies__link">
-                                    <svg height="35" width="105">
+                                <a href="https://www.google.ru/" arget="_blank" class="companies__link">
+                                    <svg height="35" width="105" class="companies__logo">
                                         <use href="image/icons.svg#Google"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="companies__item">
-                                <a href="https://www.microsoft.com/ru-ru" class="companies__link">
-                                    <svg height="32" width="152">
+                                <a href="https://www.microsoft.com/ru-ru" arget="_blank" class="companies__link">
+                                    <svg height="32" width="152" class="companies__logo">
                                         <use href="image/icons.svg#Microsoft"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="companies__item">
-                                <a href="https://www.walmart.com/" class="companies__link">
-                                    <svg height="32" width="138">
+                                <a href="https://www.walmart.com/" arget="_blank" class="companies__link">
+                                    <svg height="32" width="138" class="companies__logo companies__logo--invisible">
                                         <use href="image/icons.svg#Walmart"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="companies__item">
-                                <a href="https://www.fedex.com/ru-ru/home.html" class="companies__link">
-                                    <svg height="30" width="100">
+                                <a href="https://www.fedex.com/ru-ru/home.html" arget="_blank" class="companies__link">
+                                    <svg height="30" width="100" class="companies__logo companies__logo--invisible">
                                         <use href="image/icons.svg#FedEx"></use>
                                     </svg>
                                 </a>
@@ -173,7 +181,7 @@
                     <ul class="features__list">
                         <li class="feature features__item">
                             <div class="feature__icon">
-                                <svg height="72" width="72">
+                                <svg height="72" width="72" class="icon__feature">
                                     <use href="image/icons.svg#price"></use>
                                 </svg>
                             </div>
@@ -184,7 +192,7 @@
                         </li>
                         <li class="feature features__item">
                             <div class="feature__icon">
-                                <svg height="72" width="56">
+                                <svg height="72" width="56" class="icon__feature">
                                     <use href="image/icons.svg#reliability"></use>
                                 </svg>
                             </div>
@@ -195,7 +203,7 @@
                         </li>
                         <li class="feature features__item">
                             <div class="feature__icon">
-                                <svg height="72" width="71">
+                                <svg height="72" width="71" class="icon__feature">
                                     <use href="image/icons.svg#security"></use>
                                 </svg>
                             </div>

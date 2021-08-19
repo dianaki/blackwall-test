@@ -74,4 +74,8 @@
     <path d="M30.408 34.365l-6.9-6.899-3 3 9.9 9.9 20.239-20.238-3-3-17.239 17.237z" fill="#00ECD0"></path>
   </symbol>
 
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 13" id="mobile-menu">
+    <path d="M28 0H0v2.308h28V0zm0 9.892H8V12.2h20V9.892z" fill="#273551"></path>
+  </symbol>
+
 </svg>
