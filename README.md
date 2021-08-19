@@ -5,3 +5,4 @@
 - CSS 
 - flexbox
 - методология БЭМ
+- SVG Sprite
