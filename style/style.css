@@ -8,9 +8,14 @@ a {
     transition: 0.5s;
 }
 
-ul, h1, h2, h3, h4 {
+ul, h1, h2, h3, h4, p {
     margin: 0;
     padding: 0;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
 
 li {
@@ -239,11 +244,14 @@ a:hover {
 }
 
 .features__subtitle {
+    width: 50%;
+}
+
+.features__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     text-align: center;
-    width: 50%;
 }
 
 .features__list {
@@ -283,7 +291,7 @@ a:hover {
     line-height: 16px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
     section {
         margin-bottom: 50px;
@@ -355,8 +363,8 @@ a:hover {
     }
 
     .hero__img {
-        height: 300px;
-        width: 350px;
+        max-height: 300px;
+        max-width: 350px;
     }
 
     .companies__text-section {
@@ -395,12 +403,12 @@ a:hover {
         font-size: 8px;
     }
 
-    .companies__logo {
+    .company__logo {
         height: 16px;
         width: 70px;
     }
 
-    .companies__logo--invisible {
+    .company__logo--invisible {
         display: none;
     }
 
